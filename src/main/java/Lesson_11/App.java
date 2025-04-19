@@ -97,7 +97,7 @@ public class App {
     public static void main(String[] args) {
         Shape[] shapes = {
                 new Circle(42, "Белый", "Черный"),
-                new Rectangle(12, 52, "Красный", "Черный"),
+                new Rectangle(52, 52, "Красный", "Черный"),
                 new Triangle(33, 12, 111, "Зеленый", "Черный")
         };
 

@@ -137,7 +137,7 @@ public class Main {
         List<Cat> cats = new ArrayList<>();
         cats.add(new Cat("Курва"));
         cats.add(new Cat("Липтон"));
-        cats.add(new Cat("Мякиш"));
+        cats.add(new Cat("Мякиш52"));
 
         for (Cat c : cats) {
             c.eatFromBowl(bowl, 20);
