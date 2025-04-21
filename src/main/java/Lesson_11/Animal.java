@@ -1,4 +1,4 @@
-package org.example;
+package Lesson_11;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -121,8 +121,8 @@ class Bowl {
 
 class Animals {
     public static void main(String[] args) {
-        Dog dog = new Dog("Бобик");
-        Cat cat = new Cat("Мурка");
+        Dog dog = new Dog("Бобр");
+        Cat cat = new Cat("Чиназес");
 
         dog.run(150);
         dog.swim(5);
@@ -136,9 +136,9 @@ class Animals {
 
         Bowl bowl = new Bowl(50);
         List<Cat> cats = new ArrayList<>();
-        cats.add(new Cat("Барсик"));
-        cats.add(new Cat("Снежок"));
-        cats.add(new Cat("Черныш"));
+        cats.add(new Cat("Курва"));
+        cats.add(new Cat("Липтон"));
+        cats.add(new Cat("Мякиш52"));
 
         for (Cat c : cats) {
             c.eatFromBowl(bowl, 20);
