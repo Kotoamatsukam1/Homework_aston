@@ -7,7 +7,7 @@ interface Shape {
     String getBorderColor();
 }
 
-class Circle implements Shape {
+public class Circle implements Shape {
     private double radius;
     private String fillColor;
     private String borderColor;
@@ -92,8 +92,7 @@ class Triangle implements Shape {
         return borderColor;
     }
 }
-
-public class App {
+ class App {
     public static void main(String[] args) {
         Shape[] shapes = {
                 new Circle(42, "Белый", "Черный"),

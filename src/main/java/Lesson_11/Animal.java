@@ -1,9 +1,9 @@
-package Lesson_11;
+package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Animal {
+public abstract class Animal {
     protected static int animalCount = 0;
     protected String name;
 
@@ -95,6 +95,7 @@ class Cat extends Animal {
     }
 }
 
+
 class Bowl {
     private int foodAmount;
 
@@ -118,10 +119,10 @@ class Bowl {
     }
 }
 
-public class Main {
+class Animals {
     public static void main(String[] args) {
-        Dog dog = new Dog("Бобр");
-        Cat cat = new Cat("Чиназес");
+        Dog dog = new Dog("Бобик");
+        Cat cat = new Cat("Мурка");
 
         dog.run(150);
         dog.swim(5);
@@ -135,9 +136,9 @@ public class Main {
 
         Bowl bowl = new Bowl(50);
         List<Cat> cats = new ArrayList<>();
-        cats.add(new Cat("Курва"));
-        cats.add(new Cat("Липтон"));
-        cats.add(new Cat("Мякиш52"));
+        cats.add(new Cat("Барсик"));
+        cats.add(new Cat("Снежок"));
+        cats.add(new Cat("Черныш"));
 
         for (Cat c : cats) {
             c.eatFromBowl(bowl, 20);
